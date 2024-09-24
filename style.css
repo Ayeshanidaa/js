@@ -1,0 +1,45 @@
+body {
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 50px;
+  background-image: url('image.jpeg');
+  background-size: cover;
+  background-position: top;
+}
+
+
+input,
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+  background-color: #45a848;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #58b65d;
+}
+
+#greeting {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.greets {
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  top: 14rem;
+}
