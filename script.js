@@ -16,4 +16,6 @@ function generateGreeting() {
   }
 
   document.getElementById("greeting").innerText = greeting;
+  document.getElementById("name").value = "";
+  document.getElementById("mood").value = "";
 }
